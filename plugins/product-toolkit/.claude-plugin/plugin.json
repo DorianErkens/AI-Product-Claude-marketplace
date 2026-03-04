@@ -1,5 +1,5 @@
 {
   "name": "product-toolkit",
-  "description": "Product Manager toolkit: PRD generation, ICE scoring, experiment tracking",
-  "version": "1.0.0"
+  "description": "Product Manager toolkit: PRD generation, ICE scoring, experiment tracking, feedback-to-idea",
+  "version": "1.1.0"
 }

@@ -4,18 +4,18 @@
     "name": "Dorian Erkens"
   },
   "metadata": {
-    "description": "Product skills for Claude Code — PRD generation, experiment tracking, product archaeology",
-    "version": "1.0.0",
+    "description": "Product skills for Claude Code — PRD generation, experiment tracking, product archaeology, feedback-to-idea workflow",
+    "version": "1.1.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
     {
       "name": "product-toolkit",
       "source": "./product-toolkit",
-      "description": "Product Manager toolkit: structured PRD, quick PRD, retro PRD, experiment register",
-      "version": "1.0.0",
+      "description": "Product Manager toolkit: structured PRD, quick PRD, retro PRD, experiment register, feedback-to-idea",
+      "version": "1.1.0",
       "author": { "name": "Dorian Erkens" },
-      "keywords": ["product", "prd", "ice", "gist", "experiment"],
+      "keywords": ["product", "prd", "ice", "gist", "experiment", "feedback", "clickup"],
       "category": "product-management"
     }
   ]

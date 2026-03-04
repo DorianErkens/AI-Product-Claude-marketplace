@@ -44,7 +44,7 @@ The 4 skills are then available in any project.
 /prd-quick "push notifs for teachers"     → capture the idea in 30s
 /prd "absence stats dashboard"            → structured PRD with interactive ICE
 /experiment-new prd/my-prd.md             → append Experiment Register
-/prd-retro feat/chatbot-v2               → reconstruct PRD from existing code
+/prd-retro feat/chatbot-v2                → reconstruct PRD from existing code
 ```
 
 ### Frameworks & Sources

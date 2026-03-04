@@ -1,0 +1,22 @@
+{
+  "name": "product-toolkit-marketplace",
+  "owner": {
+    "name": "Dorian Erkens"
+  },
+  "metadata": {
+    "description": "Product skills for Claude Code — PRD generation, experiment tracking, product archaeology",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "product-toolkit",
+      "source": "./product-toolkit",
+      "description": "Product Manager toolkit: structured PRD, quick PRD, retro PRD, experiment register",
+      "version": "1.0.0",
+      "author": { "name": "Dorian Erkens" },
+      "keywords": ["product", "prd", "ice", "gist", "experiment"],
+      "category": "product-management"
+    }
+  ]
+}

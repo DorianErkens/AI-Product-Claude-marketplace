@@ -39,11 +39,23 @@ The 4 skills are then available in any project.
 /prd-retro feat/chatbot-v2               → reconstruct PRD from existing code
 ```
 
-### Frameworks Used
+### Frameworks & Sources
 
-- **GIST** (Goals, Ideas, Steps, Tasks) — by Itamar Gilad
-- **ICE Scoring** (Impact, Confidence, Effort) — with additive Confidence Meter
-- **Experiment Register** — lifecycle tracking from Hypothesis → Prototyping → Measuring → Decision
+These skills are built on established product management frameworks:
+
+| Framework | Author | Used In | Source |
+|-----------|--------|---------|--------|
+| **GIST** (Goals, Ideas, Steps, Tasks) | Itamar Gilad | `/prd`, `/prd-retro` | [Why I Stopped Using Product Roadmaps](https://itamargilad.com/why-i-stopped-using-product-roadmaps/) |
+| **ICE Scoring** (Impact, Confidence, Effort) | Sean Ellis, adapted by Itamar Gilad | All skills | [The Tool I Use to Evaluate 200 Product Ideas](https://itamargilad.com/the-tool-i-use-to-evaluate-200-product-ideas/) |
+| **Confidence Meter** (additive evidence-based scoring) | Itamar Gilad | `/prd`, `/prd-quick`, `/experiment-new` | [I've Stopped Using ICE / RICE — Here's What I Use Instead](https://itamargilad.com/confidence-meter/) |
+| **Experiment Register** (lifecycle: Hypothesis → Prototyping → Measuring → Decision) | Inspired by Itamar Gilad's "Testing Business Ideas" approach | `/experiment-new` | [Evidence-Guided](https://itamargilad.com/book-erta/) |
+| **Vibe Coding PRD** (chaos-first, assumption-tagged) | Original design | `/prd-quick`, `/prd-retro` | — |
+
+Key design decisions:
+- **Confidence is additive, not estimated** — you sum evidence scores rather than guessing a number. This forces teams to collect real evidence before claiming confidence.
+- **ICE uses I × C / E** (not I × C × E) — Effort is in the denominator because higher effort should reduce priority, not increase it.
+- **Assumptions are first-class citizens** — every unknown is explicitly tagged `(Assumption)` so it can be validated or challenged later.
+- **/prd-retro exists because most experiments start before a PRD** — this skill traces the chaos after the fact, which is more realistic than expecting upfront documentation.
 
 ## Architecture
 

@@ -145,6 +145,10 @@ Crée la task (clickup_create_task) dans la **même list** que l'objectif, **en 
    > Rattaché à l'objectif "[nom objectif]"
    > Scope : [résumé 1 ligne]
 
+4. **Proposer de passer le feedback en "Sorted"** — via AskUserQuestion :
+   > Le feedback a été transformé en Idea. Veux-tu passer le statut du feedback à "Sorted" ?
+   Si oui → `clickup_update_task(task_id=[feedback_id], status="sorted")`
+
 ### Étape 6 — Récap
 
 Affiche un tableau récapitulatif :

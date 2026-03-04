@@ -63,8 +63,10 @@ AI-Product-Claude-marketplace/
 │           ├── prd-retro/SKILL.md
 │           └── experiment-new/SKILL.md
 │
-├── prd/                                ← PRD ARCHIVE
-│   └── example-chatbot-kb-scalability.md
+├── prd/                                ← PRD ARCHIVE (3 anonymized examples)
+│   ├── example-chatbot-kb-scalability.md
+│   ├── example-ocr-paper-attendance.md
+│   └── example-bulk-justification.md
 │
 ├── prompts/                            ← reusable prompts
 ├── prototypes/                         ← experimental code, POCs

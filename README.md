@@ -2,12 +2,20 @@
 
 > A **Claude Code Plugin Marketplace** that distributes product skills to any project, plus an archive of AI-generated PRDs.
 
+## Why I Built This
+
+As a technical PM at an EdTech startup, I kept hitting the same friction: writing PRDs from scratch was slow, experiments launched without a trace, and ICE scores were guessed rather than evidence-based. So I automated my product workflow into Claude Code skills — forcing rigor (additive Confidence Meter, kill criteria, experiment lifecycle) without killing velocity. The result: a 30-second `/prd-quick` captures chaos, `/prd` runs an interactive ICE calibration, and `/prd-retro` reconstructs documentation from code that already shipped.
+
+This is a real tool I use daily, not a demo project.
+
+**Dorian Erkens** — Product Manager & Builder | [LinkedIn](https://www.linkedin.com/in/dorianerkens/)
+
 ## What This Is
 
 This repo serves two purposes:
 
 1. **Plugin Marketplace** — distributes product management skills (`/prd`, `/prd-quick`, `/prd-retro`, `/experiment-new`) to any team member, in any repository
-2. **PRD Archive** — centralized storage for AI-generated PRDs, prompts, prototypes and notes
+2. **PRD Archive** — centralized storage for AI-generated PRDs with real-world examples (anonymized)
 
 ## Installation
 
